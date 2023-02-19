@@ -1,0 +1,109 @@
+.serviceInstallers {
+    margin-top: 50px;
+}
+.serviceInstallers__title {
+    @include h2Title;
+    margin-bottom: 40px;
+}
+.serviceInstallers__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.serviceInstallers__card {
+    background-color: $colorMain;
+    padding: 20px 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+.serviceInstallers__top {
+    display: flex;
+    gap: 10px;
+}
+.serviceInstallers__img {
+    border-radius: 5px;
+}
+.serviceInstallers__wrapper {
+}
+.serviceInstallers__name {
+    margin: 0;
+    font-weight: 600;
+}
+.serviceInstallers__dol {
+}
+.serviceInstallers__servicesUl {
+    list-style-position: inside;
+    line-height: 30px;
+    li:nth-child(1){
+        margin-left: 20px;
+    }
+    li:nth-child(2){
+        margin-left: 30px;
+    }
+}
+.serviceInstallers__services {
+}
+.serviceInstallers__distance {
+}
+.serviceInstallers__middle {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    gap: 100px;
+}
+.serviceInstallers__leftM {
+}
+.serviceInstallers__reviews {
+    text-align: center;
+}
+.serviceInstallers__specialist {
+}
+.serviceInstallers__rightM {
+}
+.serviceInstallers__active {
+    display: flex;
+    align-items: center;
+    span{
+        border: 1px solid #000;
+        width: 13px;
+        height: 13px;
+        background-color: #16c60c;
+        display: block;
+        border-radius: 50%;
+        float: left;
+        margin-right: 5px;
+    }
+}
+.serviceInstallers__works {
+}
+.serviceInstallers__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.serviceInstallers__leftB {
+}
+.serviceInstallers__leftBUl {
+    list-style-position: inside;
+}
+.serviceInstallers__leftR {
+}
+.serviceInstallers__btn {
+    @include btn;
+    background-color: #ffffff;
+    color: #000;
+    span{
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background: url("../icons/telephoneCopy.svg");
+        }
+    }
+    &:hover {
+        background-color: #eaefdb;
+        color: #000;
+    }
+    
+}

@@ -27,6 +27,9 @@
     @include btn;
 }
 .header__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .header__img {
     border-radius: 5px;

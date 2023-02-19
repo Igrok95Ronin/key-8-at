@@ -1,0 +1,31 @@
+.locksmith {
+    margin-top: 50px;
+}
+.locksmith__box {
+    display: grid;
+    grid-template-columns: 0.5fr 1.0fr;
+    gap: 20px;
+}
+.locksmith__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.locksmith__img {
+   max-width: 100%;
+   object-fit: cover;
+   border-radius: 5px;
+}
+.locksmith__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.locksmith__title {
+    @include h2Title;
+}
+.locksmith__txt {
+    text-align: center;
+    line-height: 20px;
+}

@@ -52,3 +52,9 @@ $colorMain : #196db6;
         }
     }
 }
+@mixin h2Title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+}
