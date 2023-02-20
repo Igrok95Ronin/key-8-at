@@ -1,0 +1,10 @@
+.forms {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.forms__title {
+    @include h2Title;
+}
+.forms__button {
+    @include btn;
+}
