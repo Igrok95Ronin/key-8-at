@@ -1,0 +1,44 @@
+.about {
+    margin-top: 50px;
+}
+.about__title {
+    @include h2Title;
+}
+.about__box {
+    border: 2px solid #cccccc;
+    padding: 50px 100px 30px;
+}
+.about__inner {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url("../icons/sss.svg");
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        top: -30px;
+        left: -60px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        background-image: url("../icons/sss.svg");
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        bottom: -30px;
+        right: -60px;
+    }
+}
+.about__txt {
+    span{
+        font-weight: 700;
+    }
+}
+.about__star {
+    margin-top: 30px;
+}
+.about__name {
+    font-weight: 700;
+}
