@@ -1,0 +1,49 @@
+@media(max-width: 900px) {
+    .serviceInstallers__box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__box {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .ourTeam__box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 600px) {
+    .locksmith__box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .locksmith {
+        margin-top: 30px;
+    }
+    .serviceInstallers__btn {
+        font-size: 17px;
+    }
+    .services__box {
+        grid-template-columns: 1fr;
+    }
+    .about__box {
+        padding: 50px 45px 30px;
+    }
+    .about__inner::before {
+        left: -45px;
+    }
+    .about__inner::after {
+        right: -45px;
+    }
+}
+
+@media(max-width: 425px) {
+    .btnFixed {
+        display: block;
+    }
+    .forms {
+        margin-bottom: 50px;
+    }
+}

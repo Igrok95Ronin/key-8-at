@@ -1,0 +1,12 @@
+.btnFixed {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.btnFixedLing {
+    @include btn;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}

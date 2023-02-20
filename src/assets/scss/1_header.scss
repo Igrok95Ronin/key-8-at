@@ -14,7 +14,7 @@
 }
 .header__title {
     font-weight: 700;
-    font-size: 35px;
+    font-size: clamp(24px,5vw,35px);
 }
 .header__ul {
     list-style-position: inside;
@@ -34,4 +34,6 @@
 .header__img {
     border-radius: 5px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
