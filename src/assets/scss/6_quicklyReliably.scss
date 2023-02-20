@@ -1,0 +1,14 @@
+.quicklyReliably {
+    margin-top: 50px;
+}
+.quicklyReliably__title {
+    @include h2Title;
+}
+.quicklyReliably__box {
+}
+.quicklyReliably__txt {
+    line-height: 25px;
+    span{
+        font-weight: 700;
+    }
+}
